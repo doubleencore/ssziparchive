@@ -30,6 +30,7 @@
 		7505A72018E0AF7600543151 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 210D524F17DEFB880060D41A /* mztools.h */; };
 		7505A72118E0AF7600543151 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 210D525117DEFB880060D41A /* unzip.h */; };
 		7505A72218E0AF7600543151 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 210D525317DEFB880060D41A /* zip.h */; };
+		7505A72318E0B03300543151 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CC421217DB7E0500201DDC /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7505A72318E0B03300543151 /* libz.dylib in Frameworks */,
 				7505A6F818E0AE0400543151 /* XCTest.framework in Frameworks */,
 				7505A6FA18E0AE0400543151 /* UIKit.framework in Frameworks */,
 				7505A6FD18E0AE0400543151 /* libSSZipArchive.a in Frameworks */,
@@ -250,6 +252,11 @@
 				CLASSPREFIX = SS;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Sam Soffes";
+				TargetAttributes = {
+					7505A6F618E0AE0300543151 = {
+						TestTargetID = 7505A6E918E0AE0300543151;
+					};
+				};
 			};
 			buildConfigurationList = 21CC41A017DB7D1300201DDC /* Build configuration list for PBXProject "SSZipArchive" */;
 			compatibilityVersion = "Xcode 3.2";
