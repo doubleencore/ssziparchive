@@ -397,10 +397,7 @@
 		7505A70718E0AE0400543151 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7s,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/SSZipArchive.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSZipArchive/SSZipArchive-Prefix.pch";
@@ -423,10 +420,7 @@
 		7505A70818E0AE0400543151 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7s,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/SSZipArchive.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSZipArchive/SSZipArchive-Prefix.pch";
